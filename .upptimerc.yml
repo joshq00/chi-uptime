@@ -15,7 +15,11 @@ sites:
     url: http://198.12.106.211:8000
   - name: Test Broken Site
     url: https://thissitedoesnotexist.koj.co
-
+  - name: method
+    url: https://production.methodfi.com/ping
+    expectedStatusCodes:
+      - 200
+      - 401
 # assignees: # Users to assign downtime issues (optional)
   # - AnandChowdhary
 
@@ -27,9 +31,9 @@ status-website:
   logoUrl: https://www.gstatic.com/devrel-devsite/prod/v8bb8fa0afe9a8c3a776ebeb25d421bb443344d789b3607754dfabea418b8c4be/cloud/images/cloud-logo.svg
   name: Orptorm
   # introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introTitle: "This is the text of the intro title."
+  introTitle: Thanks for caring
   # introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
-  introMessage: Something belongs here as a message
+  introMessage: At some point, I will care, too
   navbar:
     - title: Status
       href: /chi-uptime
@@ -40,13 +44,5 @@ status-website:
 # See https://upptime.js.org/docs/configuration
 
 i18n:
-  footer: This page is [open source]($REPO), with a page and footer powered by [Upptime](https://upptime.js.org)
-
-workflowSchedule:
-  graphs: "*/15 * * * *"
-  responseTime: "*/15 * * * *"
-  staticSite: "0 * * * *"
-  summary: "0 * * * *"
-  updateTemplate: "0 * * * *"
-  updates: "0 * * * *"
-  uptime: "*/5 * * * *"
+  # footer: This page is [open source]($REPO), with a page and footer powered by [Upptime](https://upptime.js.org)
+  footer:
