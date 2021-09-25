@@ -21,7 +21,7 @@ status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: demo.upptime.js.org
-  baseUrl: /$REPO
+  baseUrl: /chi-uptime
   logoUrl: https://www.gstatic.com/devrel-devsite/prod/v8bb8fa0afe9a8c3a776ebeb25d421bb443344d789b3607754dfabea418b8c4be/cloud/images/cloud-logo.svg
   name: Orptorm
   introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
