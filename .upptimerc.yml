@@ -3,12 +3,14 @@ owner: joshq00 # Your GitHub organization or username, where this repository liv
 repo: chi-uptime # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
+  - name: hwb
+    url: http://highwaybenefits.com
+  - name: shwb
+    url: https://highwaybenefits.com
+  - name: whwb
+    url: http://www.highwaybenefits.com
+  - name: wshwb
+    url: https://www.highwaybenefits.com
   - name: chi
     url: http://198.12.106.211:8000
   - name: Test Broken Site
@@ -24,13 +26,27 @@ status-website:
   baseUrl: /chi-uptime
   logoUrl: https://www.gstatic.com/devrel-devsite/prod/v8bb8fa0afe9a8c3a776ebeb25d421bb443344d789b3607754dfabea418b8c4be/cloud/images/cloud-logo.svg
   name: Orptorm
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  # introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
+  introTitle: "This is the text of the intro title."
+  # introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  introMessage: Something belongs here as a message
   navbar:
     - title: Status
-      href: /
+      href: /chi-uptime
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
+
+i18n:
+  footer: This page is [open source]($REPO), with a page and footer powered by [Upptime](https://upptime.js.org)
+
+workflowSchedule:
+  graphs: "*/5 * * * *"
+  responseTime: "*/5 * * * *"
+  staticSite: "0 * * * *"
+  summary: "0 * * * *"
+  updateTemplate: "0 * * * *"
+  updates: "0 * * * *"
+  uptime: "*/5 * * * *"
