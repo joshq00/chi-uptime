@@ -1,6 +1,6 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: joshq00 # Your GitHub organization or username, where this repository lives
+repo: chi-uptime # The name of this repository
 
 sites:
   - name: Google
@@ -9,16 +9,21 @@ sites:
     url: https://en.wikipedia.org
   - name: Hacker News
     url: https://news.ycombinator.com
+  - name: chi
+    url: http://198.12.106.211:8000
   - name: Test Broken Site
     url: https://thissitedoesnotexist.koj.co
+
+# assignees: # Users to assign downtime issues (optional)
+  # - AnandChowdhary
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
+  # cname: demo.upptime.js.org
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
+  logoUrl: https://www.gstatic.com/devrel-devsite/prod/v8bb8fa0afe9a8c3a776ebeb25d421bb443344d789b3607754dfabea418b8c4be/cloud/images/cloud-logo.svg
+  name: Orptorm
   introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
   introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   navbar:
