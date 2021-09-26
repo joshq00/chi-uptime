@@ -4,18 +4,20 @@
     "url": "http://198.12.106.211:8000",
     "icon": "https://favicons.githubusercontent.com/198.12.106.211",
     "slug": "chi",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 63,
-    "timeDay": 63,
+    "timeDay": 38,
     "timeWeek": 63,
     "timeMonth": 63,
     "timeYear": 63,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2021-09-26": 0
+    }
   },
   {
     "name": "Test Broken Site",
@@ -47,7 +49,7 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 292,
-    "timeDay": 292,
+    "timeDay": 266,
     "timeWeek": 292,
     "timeMonth": 292,
     "timeYear": 292,
